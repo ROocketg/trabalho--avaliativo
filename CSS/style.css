@@ -1,0 +1,110 @@
+html {
+    font-size: 25px;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 5px 0;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    line-height: 15px
+}
+
+header h1 {
+
+    font-size: 60px;
+    text-align: center;
+    font-family: "logo";
+    padding: 5px 0;
+
+}
+
+header li {
+    font-family: "regular";
+    font-size: 20px;
+    list-style: none;
+    padding: 5px 0;
+    display: inline-block;
+}
+
+header li:hover {
+    color: #cf2025;
+}
+
+header ul {
+    display: flex;
+    margin: 15px;
+    gap: 50px;
+}
+
+body {
+    margin: 20px;
+    background-color: black;
+    color: white;
+}
+
+
+body a {
+    display: flex;
+    font-family: "regular";
+    flex-direction: column;
+    margin: 5px 0;
+    padding: 2px 0p;
+    color: white;
+    font-size: 25px;
+    text-align: justify;
+    line-height: 20px
+}
+
+#content {
+    display: flex;
+    padding: 5px 0;
+    font-size: 15px;
+    color: white;
+}
+
+#content-title h2 {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 0;
+    font-size: 25px;
+    text-align: center;
+    font-family: "logo";
+    background-color: #cf2025;
+}
+
+.mangacard {
+    background-color: #cf2025;
+    padding: 10px;
+    display: flex;
+    border-radius: 10px;
+    flex-direction: column;
+    box-shadow: 0 5px 10px;
+    justify-content: center;
+    align-items: center;
+    width: 230px;
+    margin: 15px
+}
+
+.mangacard span {
+
+    text-align: justify;
+    margin: 5px;
+
+}
+
+.mangacard h3 {
+    text-align: center;
+}
+
+.mangacard img {
+    width: 180px;
+    max-width: 180px;
+    height: auto;
+    border-radius: 5px;
+    margin: 15px 0;
+}
