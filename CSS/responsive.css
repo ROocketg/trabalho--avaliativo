@@ -1,0 +1,127 @@
+@media screen and (max-width: 480px) {
+    header {
+        padding: 0;
+    }
+   
+    .texto{
+        width: 100%;
+    }
+
+    header h1 {
+        margin: 5px 0;
+        font-size: 1.25rem;
+    }
+    body {
+        margin: 15px;
+
+    }
+    body a {
+        font-size: 0.6rem;
+        line-height: 13px;
+        padding: 0 15px 5px 15px;
+    }
+    
+    body li {
+        display: flex;
+        margin: 5px;
+        font-size: 0.5rem;
+        text-align: center;
+    }
+
+    body ul {
+        gap: 5px;
+    }
+  
+
+    .mangacard {
+        width: 480px;
+        padding: 10px;
+        flex-direction: column;
+        align-items: center;
+        margin: 15px;
+    }
+
+    .mangacard span {
+        text-align: justify;
+        margin: 15px;
+        font-size: 0.9rem;
+    }
+
+    .mangacard h3 {
+        text-align: center;
+        font-size: 1.5rem;
+        margin: 10px 0;
+    }
+
+    .mangacard img {
+        
+        width: 480px; 
+        max-width: 300px;
+        margin: 15px 0;
+    }
+    footer{
+        font-size: 0.5rem;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 820px) {
+   
+    body a {
+        font-size: 1rem;
+        line-height:25px;
+        margin:15px;
+      
+    }
+    .texto{
+        width: 100%;
+    }
+    header h1{
+        font-size: 60px;
+    }
+    header li {
+        display: flex;
+        margin: 2px;
+        font-size: 0.8rem;
+        text-align: center;
+    }
+    header ul{
+        gap:5px
+    }
+    #content-title h2 {
+        font-size: 30px;
+    }
+
+    .mangacard {
+
+        padding: 10px;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        max-width: 500px;
+        margin: 0 auto 15px auto;
+
+    }
+    .mangacard h3 {
+        font-size: 3rem;
+        margin: auto
+    }
+
+    .mangacard span {
+    
+        text-align: justify;
+        margin: 5px;
+        font-size: 1.25rem;
+        padding: 5px 0;
+    
+    }
+
+    .mangacard h3 {
+        text-align: center;
+    }
+    .mangacard img {
+    width: 500px;
+    max-width: 820px;
+    margin: 15px 0;
+    height: auto;
+    }
+}
